@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from appestudiantes.model import Estudiante, Ciclo
+from appestudiantes.models import Ciclo, Estudiante
 
 admin.site.register(Estudiante)
 admin.site.register(Ciclo)
